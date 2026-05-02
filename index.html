@@ -66,14 +66,15 @@
     .trust-badge{display:flex;gap:1.5rem;flex-wrap:wrap;margin-top:1rem;color:#b0d0b0}
   </style>
 </head>
-  <!-- Google tag (gtag.js) -->
+<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-S5X735PVJL"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
-  gtag('config', 'G-S5X735PVJL');
+  gtag('config', 'G-S5X735PVJL', {
+    debug_mode: true
+  });
 </script>
 <body>
   <canvas id="particles-canvas"></canvas>
